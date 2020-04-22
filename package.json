@@ -1,41 +1,29 @@
 {
-  "name": "@themesberg/windows-95-ui-kit",
-  "version": "1.2.0",
-  "description": "Retro Windows 95 UI Kit in Bootstrap 4 created by Themesberg.com",
-  "keywords": [
-    "windows 95",
-    "ui kit",
-    "retro ui kit",
-    "bootstrap",
-    "retro bootstrap",
-    "themesberg",
-    "Windows 95 Buttons",
-    "Windows 95 Cards",
-    "Windows 95 Forms",
-    "Windows 95 Font",
-    "Windows 95 Tooltips",
-    "w95"
-  ],
-  "homepage": "https://themesberg.com/product/ui-kits/windows-95-ui-kit",
+    "name": "flask-material-kit",
+    "version": "1.0.0",
+    "description": "An open-source Flask boilerplate suitable for simple applications.",
+    "main": "gruntfile.js",
+    "devDependencies": {
+        "rimraf": "^2.5.2"
+    },
+    "engines": {
+        "node": ">=0.10.1"
+    },
+    "scripts": {
+        "start"  : "flask run",
+        "shell"  : "flask shell"
+    },
     "repository": {
         "type": "git",
-        "url": "https://github.com/themesberg/windows-95-ui-kit"
+        "url": "https://github.com/app-generator/flask-material-kit"
     },
     "bugs": {
-        "email": "support@themesberg.com"
+        "url": "https://github.com/app-generator/flask-material-kit/issues",
+        "email": "support@appseed.us"
     },
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Themesberg",
-  "license": "MIT",
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.0.1"
-  }
+    "author": "AppSeed.us <support@appseed.us> (https://appseed.us)",
+    "license": "MIT",
+    "dependencies": {
+        "ftp-deploy": "^2.3.3"
+    }
 }

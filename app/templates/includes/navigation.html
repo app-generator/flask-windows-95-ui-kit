@@ -1,0 +1,41 @@
+<nav id="navbar-main" class="navbar d-flex flex-row align-items-center navbar-main navbar-expand-lg navbar-dark justify-content-between">
+  <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
+
+      {% if current_user.is_authenticated %}
+
+          <li class="nav-item">
+              <a href="/" class="nav-link" role="button">
+                  <span class="nav-link-inner-text">📺 Start</span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a href="/docs.html" class="nav-link" role="button">
+                  <span class="nav-link-inner-text">📕 Docs</span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a href={{ url_for('logout') }} class="nav-link" role="button">
+                  <span class="nav-link-inner-text">Logout</span>
+              </a>
+          </li>
+
+      {% else %}
+
+          <li class="nav-item">
+              <a href={{ url_for('login') }} class="nav-link" role="button">
+                  <span class="nav-link-inner-text">Login</span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a href={{ url_for('register') }} class="nav-link" role="button">
+                  <span class="nav-link-inner-text">Register</span>
+              </a>
+          </li>
+          
+      {% endif %}
+
+  </ul>
+  <div class="time text-center">
+      <span class="time text-uppercase">1:47 PM</span>
+  </div>
+</nav>

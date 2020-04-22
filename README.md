@@ -1,104 +1,78 @@
-<h1 style="text-align: center"><a href="https://demo.themesberg.com/windows-95-ui-kit/">Windows 95 UI Kit</a></h1>
+# [Flask Win95 UI Kit](https://flask-windows-95-ui-kit.appseed.us)
 
-<p><b>30+</b> authentic Windows 95 components, Full Documentation, Fully Responsive, 100% Valid W3C HTML Files and made for <b>awesome developers</b> just like you. It's <strong>Free</strong>.</p>
+**Open-Source Web App** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** on top of **Windows 95 UI Kit** - App coded by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
-<p align="center">
-    <a href="https://demo.themesberg.com/windows-95-ui-kit/" align="center" alt="Windows 95 UI Kit Demo">
-        <img width="700" align="center" src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/windows-95/windows-95-bootstrap-preview.gif">
-    </a>
-</p>
+### App Features:
 
-<p>Windows 95 UI Kit is a free User Interface Kit featuring authentic buttons, cards (windows), tabs, navigation tabs, typography and many more. Use this kit to create awesome retro interfaces.</p>
-<p>Just run npm install to set up all the required dependencies. The Windows 95 Elements were molded with Bootstrap 4 Components and classes to offer an easy way and modern way of working with colors and sizes.</p>
-<p>This is an open source project so if you have an idea or would like to perfect the product, feel free to create a PR and we will surely take a look at it!</p>
-<p>Helpful links:</p>
+- SQLite database
+- SQLAlchemy ORM
+- Session-Based authentication flow (login, register)
+- UI Kit: [Windows 95 UI Kit](https://themesberg.com/product/ui-kits/windows-95-ui-kit) by **Themesberg**
 
-- [Demo](https://demo.themesberg.com/windows-95-ui-kit/)
+<br />
 
-- [Download](https://themesberg.com/product/ui-kits/windows-95-ui-kit)
+![Windows 95 UI Kit - Open-Source Web App Coded in Flask.](https://raw.githubusercontent.com/app-generator/static/master/flask-windows-95-ui-kit/flask-windows-95-ui-kit-intro.gif)
 
-## Quick start
+<br />
 
-1. Download from [Themesberg](https://themesberg.com/product/ui-kits/windows-95-ui-kit) or `git clone` this repository
-2. Download the project's zip
-3. Make sure you have Node locally installed.
-4. Run the following command to install dependencies:
+## Build from sources
 
-```
-npm install
-```
-
-5. You're good to go!
-
-## What's included
-
-Windows 95 UI Kit has the following folder structure:
-
-```
-
-windows-95-ui-kit/
-
-├── css/
-
-│ ├── w95.css
-
-├── docs/
-
-├── img/
-
-├── js/
-
-│ ├── w95.js
-
-├── node_modules/
-
-├── index.html
-
+```bash
+$ # Clone the sources
+$ git clone https://github.com/app-generator/flask-windows-95-ui-kit.git
+$ cd flask-windows-95-ui-kit
+$
+$ # Virtualenv modules installation (Unix based systems)
+$ virtualenv --no-site-packages env
+$ source env/bin/activate
+$
+$ # Virtualenv modules installation (Windows based systems)
+$ # virtualenv --no-site-packages env
+$ # .\env\Scripts\activate
+$ 
+$ # Install requirements
+$ pip3 install -r requirements.txt
+$
+$ # Set the FLASK_APP environment variable
+$ (Unix/Mac) export FLASK_APP=run.py
+$ (Windows) set FLASK_APP=run.py
+$ (Powershell) $env:FLASK_APP = ".\run.py"
+$
+$ # Set up the DEBUG environment
+$ # (Unix/Mac) export FLASK_ENV=development
+$ # (Windows) set FLASK_ENV=development
+$ # (Powershell) $env:FLASK_ENV = "development"
+$
+$ # Run the application
+$ # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1)
+$ # --port=5000    - specify the app port (default 5000)  
+$ flask run --host=0.0.0.0 --port=5000
+$
+$ # Access the app in browser: http://127.0.0.1:5000/
 ```
 
-### Features
+<br />
 
-- Windows 95 button styles
+## Support
 
-- Authentic Cards (windows)
+- Free support via eMail < [support @ appseed.us](https://appseed.us/support) > and **Github** issues tracker
+- 24/7 Live Support via [Discord](https://discord.gg/fZC6hup) for paid plans and commercial products.
 
-- Original navigation tab
+<br />
 
-- Fully Responsive
+## Credits & Links
 
-- Bootstrap 4
+- [Flask Win95 UI Kit](https://appseed.us/apps/flask-apps/flask-windows-95-ui-kit) - LIVE Demo
+- [Windows 95 UI Kit](https://themesberg.com/product/ui-kits/windows-95-ui-kit) - Design by **Themesberg**
+- [Flask Framework](https://www.palletsprojects.com/p/flask/) - The offcial website
+- [Flask Boilerplate - Open-Source Apps built with automation tools](https://dev.to/sm0ke/flask-boilerplate-open-source-apps-built-with-automation-tools-4925) - a popular article published on **Dev.to** platform
+<br />
 
-- jQuery
+## License
 
-- Quality code
+@MIT
 
-- and many others..
+<br />
 
-### Online documentation
-
-The documentation can be found at [themesberg.com](https://themesberg.com/preview/windows-95-ui-kit/docs/introduction.html).
-
-### Built by Themesberg
-
-Our social network profiles:
-
-- [Themesberg.com](https://themesberg.com)
-
-- [Twitter](https://twitter.com/themesberg)
-
-- [Facebook](https://www.facebook.com/themesberg)
-
-## Credits & Libraries
-
-- [Microsoft](https://www.microsoft.com/ro-ro/)
-
-- [Bootstrap](https://getbootstrap.com/)
-
-* [jQuery](https://jquery.com/)
-
-### Licensed under MIT
-
-Windows 95 UI Kit is Open Source project and licensed under MIT for better Web.
-
-![MIT License](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=for-the-badge)
-
+---
+[Flask Win95 UI Kit](https://flask-windows-95-ui-kit.appseed.us) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
