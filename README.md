@@ -62,7 +62,7 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 
 ## Credits & Links
 
-- [Flask Win95 UI Kit](https://appseed.us/apps/flask-apps/flask-windows-95-ui-kit) - LIVE Demo
+- [Flask Win95 UI Kit](https://flask-windows-95-ui-kit.appseed.us) - LIVE Demo
 - [Windows 95 UI Kit](https://themesberg.com/product/ui-kits/windows-95-ui-kit) - Design by **Themesberg**
 - [Flask Framework](https://www.palletsprojects.com/p/flask/) - The offcial website
 - [Flask Boilerplate - Open-Source Apps built with automation tools](https://dev.to/sm0ke/flask-boilerplate-open-source-apps-built-with-automation-tools-4925) - a popular article published on **Dev.to** platform
