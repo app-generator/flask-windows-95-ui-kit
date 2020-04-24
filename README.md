@@ -1,4 +1,4 @@
-# [Flask Win95 UI Kit](https://flask-windows-95-ui-kit.appseed.us)
+# [Flask Win95 UI Kit](https://appseed.us/apps/flask-apps/flask-windows-95-ui-kit)
 
 **Open-Source Web App** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** on top of **Windows 95 UI Kit** - App coded by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
@@ -62,6 +62,7 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 
 ## Credits & Links
 
+- [Flask Win95 UI Kit](https://appseed.us/apps/flask-apps/flask-windows-95-ui-kit) - Product Page
 - [Flask Win95 UI Kit](https://flask-windows-95-ui-kit.appseed.us) - LIVE Demo
 - [Windows 95 UI Kit](https://themesberg.com/product/ui-kits/windows-95-ui-kit) - Design by **Themesberg**
 - [Flask Framework](https://www.palletsprojects.com/p/flask/) - The offcial website
@@ -75,4 +76,4 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 <br />
 
 ---
-[Flask Win95 UI Kit](https://flask-windows-95-ui-kit.appseed.us) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Flask Win95 UI Kit](https://appseed.us/apps/flask-apps/flask-windows-95-ui-kit) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
